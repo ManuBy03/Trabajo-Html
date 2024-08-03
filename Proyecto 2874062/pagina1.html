@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina con referencia a una pagina ya existente</title>
+
+    <style>
+        header {
+            border: 0px solid rgb(255, 254, 254);
+            height: 130px;
+            width: 900px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            margin: 0 auto; 
+        }
+
+        #imagen {
+            border: 2px solid rgb(255, 248, 248);
+            margin: 10px;
+            height: 100px;
+            width: 1400px;
+            background-color: blueviolet; 
+        }
+
+        #div1 {
+            width: 5px;
+            margin: 0;
+            height: 39px;
+            width: 300px;
+            border-radius: 0;
+            background-color: rgb(160, 160, 4);
+        }
+
+        nav {
+            border: 1px solid rgb(234, 200, 8);
+            height: 40px;
+            width: 900px;
+            background-color: rgb(255, 255, 1);
+        }
+
+        main {
+            border: 0px solid #a3a107;
+            height: 1030px;
+            width: 900px;
+            background-color: rgb(65, 65, 65);
+            display: flex;
+            margin: 0 auto; 
+            flex-direction: column; /* Ajuste para centrar el contenido */
+        }
+
+        section {
+            border: 2px solid rgb(0, 0, 0);
+            margin: 10px;
+            height: 750px;
+            width: 800px;
+            background-color: blueviolet;
+            display: flex;
+        }
+
+        div {
+            border: 1px solid rgb(54, 54, 0);
+            height: 100px;
+            margin: 10px;
+            width: 1100px;
+            display: flex;
+            background-color: chartreuse;
+            border-radius: 20px;
+        }
+
+        article {
+            border: 3px solid rgb(255, 2, 2);
+            height: 100px;
+            margin: 30px;
+            background-color: rgba(129, 11, 2, 0.822);
+            width: 800px;
+            display: flex;
+        }
+
+        footer {
+            border: 0px solid #a3a107;
+            height: 1030px;
+            width: 900px;
+            background-color: rgb(65, 65, 65);
+            margin: 0 auto; 
+            
+        }
+
+        body {
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="imagen"></div>
+        <div></div>
+    </header>
+
+    <main>
+        <nav>
+            <div id="div1"></div>
+        </nav>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>
